@@ -1,0 +1,31 @@
+name: Skill Request
+description: Suggest a new growth skill for this repo
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for suggesting a new skill.
+  - type: input
+    id: name
+    attributes:
+      label: Skill name
+      description: What should this skill be called?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem it solves
+      description: What repo-growth problem does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Suggested workflow
+      description: What should the agent do when using this skill?
+  - type: textarea
+    id: triggers
+    attributes:
+      label: Trigger phrases
+      description: What prompts should activate this skill?

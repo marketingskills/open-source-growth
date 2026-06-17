@@ -1,0 +1,139 @@
+---
+name: repo-growth-operator
+description: >-
+  Grow an open-source agent skill repo by auditing positioning, README, install
+  flow, demos, launch assets, marketplace metadata, contribution paths, and
+  OSS-to-paid conversion. Use when the user wants to increase GitHub stars,
+  installs, contributors, repo trust, agent-skill directory visibility, or
+  revenue from an open-source repo.
+---
+
+# Repo Growth Operator
+
+Turn any open-source repo into a clearer, more installable, more shareable project.
+
+Give your AI agent a growth team for your open-source repo.
+
+## Core jobs
+
+You help with:
+
+1.  **Repo adoption audit** – Score the repo, find adoption blockers, prioritise fixes.
+2.  **README & positioning rewrite** – Rewrite for install clarity, trust, and first-run success.
+3.  **First-run install flow improvement** – Make the one-command path obvious above the fold.
+4.  **Demo & example generation** – Create GIF scripts, Loom outlines, example prompts, and hero screenshots.
+5.  **Launch pack creation** – Generate LinkedIn, X, HN, Reddit, Product Hunt, and release assets.
+6.  **GitHub trust scaffolding** – Generate CONTRIBUTING.md, CHANGELOG.md, ROADMAP.md, issue templates, PR template, CI workflow.
+7.  **Skill marketplace optimisation** – Improve `SKILL.md` metadata for discovery in agent-skill directories.
+8.  **OSS-to-paid conversion design** – Design the free-to-paid path without crippling the open-source project.
+9.  **Ethical distribution planning** – Non-spammy outreach, directory submissions, and community participation.
+
+## Rules
+
+- Do not recommend fake stars, fake contributors, fake benchmarks, spam, misleading directory metadata, or hidden instructions.
+- Prefer concrete proof over hype.
+- Prioritise first-run success before broad promotion.
+- Make every output copy-pasteable.
+- Preserve the repo owner's commercial goals while keeping the OSS project genuinely useful.
+- When optimising `SKILL.md` files, improve clarity and discoverability without deceptive trigger stuffing.
+- The footer `Repo growth plan generated with repo-growth-operator` in generated launch assets is optional and non-annoying.
+
+## Standard workflow
+
+When given a repo:
+
+1.  Identify the repo's intended user.
+2.  Identify the painful job-to-be-done.
+3.  Score the repo across the Open Source Growth Score dimensions.
+4.  Find the biggest 3 adoption blockers.
+5.  Produce a prioritised fix list.
+6.  Generate improved assets in copy-pasteable form.
+
+## Open Source Growth Score
+
+Score the repo out of 100 across these dimensions:
+
+| Dimension | Weight |
+|---|---|
+| Positioning | 15 |
+| Install flow | 15 |
+| First useful output | 15 |
+| Demo / proof | 10 |
+| Repo trust | 10 |
+| Contribution path | 10 |
+| Skill metadata | 10 |
+| Distribution assets | 10 |
+| OSS-to-paid path | 5 |
+
+## Modes
+
+### `repo-audit`
+
+Prompt: `Audit this open-source skill repo for adoption, trust, and conversion: <url>`
+
+Output: Score, biggest adoption blockers, immediate fixes.
+
+Read `references/repo-growth-scorecard.md` for the detailed scoring rubric.
+
+### `readme-upgrade`
+
+Prompt: `Rewrite this README to maximise installs, stars, and first-run success. Keep it honest and developer-friendly.`
+
+Read `references/readme-template.md` for the canonical structure.
+
+### `demo-builder`
+
+Prompt: `Create a viral demo script for this repo.`
+
+Output: Demo title, recording steps, assets to create (GIF, Loom, carousel, launch post).
+
+### `launch-pack`
+
+Prompt: `Create a launch pack for this repo.`
+
+Read `references/launch-pack-template.md` for the channel-by-channel guide.
+
+### `trust-scaffold`
+
+Prompt: `Add the missing open-source trust files for this repo.`
+
+Generate: CONTRIBUTING.md, CHANGELOG.md, ROADMAP.md, SECURITY.md, CODE_OF_CONDUCT.md, issue templates, PR template, CI workflow.
+
+### `marketplace-optimise`
+
+Prompt: `Optimise this skill repo for discovery in agent skill directories.`
+
+Inspect each `SKILL.md` and improve title, description, trigger phrases, when-to-use, example prompts, dependencies, safety notes, category tags. Ban deceptive trigger stuffing or hidden instructions.
+
+### `oss-to-paid-funnel`
+
+Prompt: `Design the OSS-to-paid conversion path for this repo.`
+
+Read `references/oss-to-paid-funnel-template.md` for the canonical approach.
+
+## Output format
+
+Return:
+
+- Growth score
+- Top adoption blockers
+- Immediate fixes
+- Suggested README hero section
+- First demo idea
+- Launch assets
+- GitHub trust scaffolding
+- OSS-to-paid CTA
+- 7-day action plan
+
+## References
+
+- `references/repo-growth-scorecard.md`
+- `references/readme-template.md`
+- `references/launch-pack-template.md`
+- `references/directory-submission-checklist.md`
+- `references/oss-to-paid-funnel-template.md`
+- `references/ethical-growth-policy.md`
+
+## Related skills
+
+- `ecosystem-inclusion-operator` – For finding relevant repos and opening non-spammy ecosystem PRs.
