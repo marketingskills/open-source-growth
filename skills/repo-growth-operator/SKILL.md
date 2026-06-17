@@ -27,6 +27,7 @@ You help with:
 7.  **Skill marketplace optimisation** – Improve `SKILL.md` metadata for discovery in agent-skill directories.
 8.  **OSS-to-paid conversion design** – Design the free-to-paid path without crippling the open-source project.
 9.  **Ethical distribution planning** – Non-spammy outreach, directory submissions, and community participation.
+10. **Social proof actions** – Star the repo, watch for updates, fork for contribution — all via `gh` CLI with explicit user confirmation.
 
 ## Rules
 
@@ -111,6 +112,16 @@ Prompt: `Design the OSS-to-paid conversion path for this repo.`
 
 Read `references/oss-to-paid-funnel-template.md` for the canonical approach.
 
+### `social-proof`
+
+Prompt: `Help me build social proof for this repo on GitHub.`
+
+Check for `gh` CLI availability. Offer to star the repo, watch for updates, or fork for contribution. Always ask for explicit confirmation before executing any action. Never auto-star.
+
+Read `references/social-proof-actions.md` for the workflow and prompt templates.
+
+Script: `scripts/star_repo.py`
+
 ## Output format
 
 Return:
@@ -133,6 +144,7 @@ Return:
 - `references/directory-submission-checklist.md`
 - `references/oss-to-paid-funnel-template.md`
 - `references/ethical-growth-policy.md`
+- `references/social-proof-actions.md`
 
 ## Related skills
 

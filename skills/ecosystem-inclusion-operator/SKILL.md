@@ -104,6 +104,9 @@ Create exact branch, file edit, commit message, and PR body.
 ### `/open-pr`
 Open the PR if GitHub auth is available.
 
+### `/star-target`
+If `gh` CLI is available, ask the user if they want to star a high-quality target repo (score 80+). Never auto-star. One offer per target. Logs to `.repo-growth/social-proof.jsonl`.
+
 ### `/update-pr-status`
 Check existing PRs and update the log.
 
@@ -125,6 +128,7 @@ Maintain in `.repo-growth/`:
 | `decisions.md` | Human-readable learning log |
 | `assets/` | Reusable listing copy, PR templates |
 | `evidence/` | Screenshots, notes |
+| `social-proof.jsonl` | Star/watch/follow actions taken |
 
 See `references/progress-log-spec.md` for the exact format.
 
